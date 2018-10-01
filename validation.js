@@ -151,42 +151,5 @@ function validation(){
         
     }
     
-    // document.getElementById("first").value = "";
-    // document.getElementById("last").value = "";
-    // document.getElementById("eml").value = "";
-    // document.getElementById("pass").value = "";
-    // document.getElementById("locate").value = "";
-    // document.getElementById("cname").value = "";
     
 }
-// function display(){
-//     if(localStorage.details==undefined || localStorage.details=='')
-//         return false;
-//     var resp=JSON.parse(localStorage.details),
-//             len=resp.length,
-//             html='';
-        
-//         html='<table border="1" style="border-collapse:collapse;">';
-//         html+='<tr><td>FirstName</td>';
-//         html+='<td>LastName</td>';
-//         html+='<td>Email</td>';
-//         html+='<td>Password</td>';
-//         html+='<td>Location</td>';
-//         html+='<td>Company</td>';
-//         html+='<td>Gender</td></tr>';
-        
-//         for(var i=0;i<len;i++){
-//             html+='<tr>';
-//             html+='<td>'+resp[i].FirstName+'</td>';
-//             html+='<td>'+resp[i].LastName+'</td>';
-//             html+='<td>'+resp[i].Email+'</td>';
-//             html+='<td>'+resp[i].Password+'</td>';
-//             html+='<td>'+resp[i].Location+'</td>';
-//             html+='<td>'+resp[i].Company+'</td>';
-//             html+='<td>'+resp[i].Gender+'</td>';
-//             html+='</tr>';
-//         }
-        
-//         document.querySelector("#cntr").innerHTML=html;
-// }
-
